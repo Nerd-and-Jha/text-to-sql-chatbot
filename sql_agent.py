@@ -7,7 +7,7 @@ import re
 load_dotenv()
 
 class TextToSQLAgent:
-    def __init__(self, db_path="sample_data.db"):
+    def __init__(self, db_path="company_data.db"):
         """Initialize the Text to SQL Agent"""
         # Configure Google Gemini
         api_key = os.getenv("GOOGLE_API_KEY")
